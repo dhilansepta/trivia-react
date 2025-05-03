@@ -8,22 +8,22 @@ const SelectCategory = () => {
             <h1 className="text-3xl font-bold mb-4">Select Category</h1>
             <div className="grid grid-cols-2 gap-4">
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-colors"
-                    onClick={() => { setCategory({ category: 18, difficulty: null }) }}
+                    onClick={() => { setCategory({ category: 18, difficulty: undefined }) }}
                 >
                     Science : Computers
                 </button>
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-colors"
-                    onClick={() => { setCategory({ category: 19, difficulty: null }) }}
+                    onClick={() => { setCategory({ category: 19, difficulty: undefined }) }}
                 >
                     Science : Mathematics
                 </button>
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-colors"
-                    onClick={() => { setCategory({ category: 20, difficulty: null }) }}
+                    onClick={() => { setCategory({ category: 20, difficulty: undefined }) }}
                 >
                     Mythology
                 </button>
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-colors"
-                    onClick={() => { setCategory({ category: 21, difficulty: null }) }}
+                    onClick={() => { setCategory({ category: 21, difficulty: undefined }) }}
                 >
                     Sport
                 </button>

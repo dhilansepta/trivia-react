@@ -1,11 +1,9 @@
 import { useRecoilValue, useSetRecoilState } from "recoil";
 import { settingQuizState } from "../QuizAtoms";
-import { use } from "react";
 
 const SelectDifficulty = () => {
     const setDifficulty = useSetRecoilState(settingQuizState);
     const category = useRecoilValue(settingQuizState).category;
-    const difficulty = useRecoilValue(settingQuizState).difficulty;
 
     return (
         <>
